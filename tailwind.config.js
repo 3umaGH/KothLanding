@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['"Nunito Sans"', 'sans-serif'],
+        dm: ['"DM Sans"', 'sans-serif'],
       },
       animation: {
         blur: 'blur 10s ease-in-out infinite',
