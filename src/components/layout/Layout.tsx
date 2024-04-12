@@ -1,4 +1,5 @@
 import React from 'react'
+import { Footer } from './Footer'
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -7,7 +8,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
        items-center'>
       <div className='flex flex-col justify-between items-center min-h-screen'>
         {children}
-        <h1>Footer</h1>
+        <Footer />
       </div>
     </div>
   )

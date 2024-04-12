@@ -25,7 +25,11 @@ export const Hero = () => {
               <ServerItem status='offline' name={'EU-3'} map='chotain' maxSlots={0} totalPlayers={0} />
             </div>
 
-            <p className=' md:text-right text-center font-bold und'>View All Servers...</p>
+            <a
+              className='md:text-right text-center font-bold no-underline transition-color duration-100 hover:text-gray-200'
+              href='#servers'>
+              View All Servers...
+            </a>
           </div>
         </div>
       </div>
