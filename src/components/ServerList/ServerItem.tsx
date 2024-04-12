@@ -7,7 +7,7 @@ export type ServerMap = 'chotain' | 'meaux'
 const getStatusColor = (status: ServerStatus) => {
   switch (status) {
     case 'online':
-      return 'bg-green-500'
+      return 'bg-emerald-500'
     case 'offline':
       return 'bg-red-500'
     case 'restarting':
