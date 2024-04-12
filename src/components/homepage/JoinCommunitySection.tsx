@@ -1,7 +1,7 @@
 export const JoinCommunitySection = () => {
   return (
     <div className='gap-8 my-4 flex flex-col justify-center items-center font-semibold'>
-      <p className='text-4xl'>Join Our Community</p>
+      <p className='text-3xl md:text-4xl'>Join Our Community</p>
 
       <a href='https://discord.kothreforged.com' target='_blank' rel='noopener noreferrer'>
         <button
