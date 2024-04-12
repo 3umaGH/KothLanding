@@ -9,7 +9,7 @@ const getStatusColor = (status: ServerStatus) => {
     case 'online':
       return 'bg-emerald-500'
     case 'offline':
-      return 'bg-red-500'
+      return 'bg-red-800'
     case 'restarting':
       return 'bg-yellow-500'
   }
@@ -28,14 +28,14 @@ export const ServerItem = ({ status, name, map, maxSlots, totalPlayers }: Server
 
   return (
     <div className='flex flex-col gap-2 '>
-      <div className='w-[140px] md:max-w-[200px] overflow-clip rounded-xl border-[4px] border-gray-300 border-opacity-90'>
+      <div className='w-[140px] md:max-w-[200px] overflow-clip rounded-lg border-[4px] border-gray-300 border-opacity-90'>
         <img src={map === 'chotain' ? CHOTAIN : MEAUX} width={'100%'} height={'auto'} className='brightness-90' />
       </div>
 
-      <div className=''>
+      <div className='p-0.5'>
         <div className='flex justify-between items-center gap-2'>
           <h3 className='font-semibold text-xl'>{name}</h3>
-          <div className={`w-4 h-4 rounded-full border-[1px] border-gray-700 animate-pulse ${statusColor}`}></div>
+          <div className={`w-4 h-4 rounded-md border-[1px] border-gray-700 animate-glow ${statusColor}`}></div>
         </div>
 
         <div className='flex justify-between items-center gap-2'>
