@@ -5,7 +5,6 @@ import { Layout } from '../components/layout/Layout'
 
 export const Homepage = () => {
   return (
-    <div className='overflow-x-clip flex flex-col items-center'>
       <Layout>
         <Hero />
         <hr className='w-full my-16 h-[2px] border-t-0 bg-[#1a1c1f]' />
@@ -14,6 +13,5 @@ export const Homepage = () => {
         <hr className='w-full my-16 h-[2px] border-t-0 bg-[#1a1c1f]' />
         <GamemodeOverviewSection />
       </Layout>
-    </div>
   )
 }
