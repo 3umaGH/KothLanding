@@ -33,12 +33,12 @@ export const ServerItem = ({ status, name, map, maxSlots, totalPlayers }: Server
       </div>
 
       <div className='p-0.5'>
-        <div className='flex justify-between items-center gap-2'>
-          <h3 className='font-semibold text-xl'>{name}</h3>
+        <div className='flex items-center justify-between gap-2'>
+          <h3 className='text-xl font-semibold'>{name}</h3>
           <div className={`w-4 h-4 rounded-md border-[1px] border-gray-700 animate-glow ${statusColor}`}></div>
         </div>
 
-        <div className='flex justify-between items-center gap-2'>
+        <div className='flex items-center justify-between gap-2'>
           <p className='font-semibold text-md'>Players</p>
           <p className='text-md'>
             {totalPlayers}/{maxSlots}

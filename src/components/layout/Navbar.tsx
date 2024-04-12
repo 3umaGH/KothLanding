@@ -39,28 +39,28 @@ export const Navbar = () => {
 
   return (
     <div
-      className={`absolute z-10 overflow-x-clip h-full w-full transition-colors duration-300 ${
+      className={`absolute z-10 overflow-x-clip w-full transition-colors duration-300 ${
         isSideMenuOpen ? 'bg-[#121315d8]' : ''
       }`}>
       <div className='absolute bg-[#12131576] w-full flex justify-center min-h-[75px]'>
         <div className='p-4 max-w-[1536px] w-full flex justify-between items-center'>
           <img src={LOGO} width={120} className='' />
 
-          <div className='font-semibold uppercase hidden lg:flex gap-16'>
+          <div className='hidden gap-16 font-semibold uppercase lg:flex'>
             {links.map(link => (
               <a
                 key={link.title}
                 href={link.URL}
                 target={link.openInNewTab ? '_blank' : undefined}
                 rel={link.openInNewTab ? 'noopener noreferrer' : undefined}
-                className='hover:opacity-80 transition-all duration-250'>
+                className='transition-all hover:opacity-80 duration-250'>
                 <p>{link.title}</p>
                 <p className='text-[0.75rem] font-light'>{link.subtitle}</p>
               </a>
             ))}
           </div>
 
-          <div className='block lg:hidden bg-red-500 z-20' onClick={() => setSideMenuOpen(p => !p)}>
+          <div className='z-20 block bg-red-500 lg:hidden' onClick={() => setSideMenuOpen(p => !p)}>
             <div className='w-5'>
               <span
                 className={`block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out ${
@@ -88,7 +88,7 @@ export const Navbar = () => {
             href={link.URL}
             target={link.openInNewTab ? '_blank' : undefined}
             rel={link.openInNewTab ? 'noopener noreferrer' : undefined}
-            className='hover:opacity-80 transition-all duration-250'>
+            className='transition-all hover:opacity-80 duration-250'>
             <p className='mt-2'>{link.title}</p>
             <p className='text-[0.75rem] font-light'>{link.subtitle}</p>
           </a>

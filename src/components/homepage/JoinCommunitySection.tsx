@@ -1,9 +1,9 @@
 export const JoinCommunitySection = () => {
   return (
-    <div className='gap-8 my-4 flex flex-col justify-center items-center font-semibold'>
+    <div className='flex flex-col items-center justify-center gap-8 my-4 font-semibold'>
       <p className='text-3xl md:text-4xl'>Join Our Community</p>
 
-      <a href='https://discord.kothreforged.com' className='z-10' target='_blank' rel='noopener noreferrer'>
+      <a href='https://discord.kothreforged.com' target='_blank' rel='noopener noreferrer'>
         <button
           type='button'
           className='gap-4 text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-xl px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2'>

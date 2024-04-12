@@ -2,7 +2,7 @@ import SECTION_SCREENSHOT from '../../assets/gamemode_overview_bg.webp'
 
 export const GamemodeOverviewSection = () => {
   return (
-    <div className='mt-16 flex flex-col lg:flex-row gap-8 px-8 items-center lg:items-start '>
+    <div className='flex flex-col items-center gap-8 px-8 mt-16 lg:flex-row lg:items-start '>
       <div className=''>
         <img src={SECTION_SCREENSHOT} width={'100%'} height={'auto'} className='rounded-md ' />
       </div>
