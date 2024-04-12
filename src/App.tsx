@@ -1,10 +1,7 @@
-function App() {
+import { Homepage } from './pages/Homepage'
 
-  return (
-    <>
-     
-    </>
-  )
+function App() {
+  return <Homepage/>
 }
 
 export default App
