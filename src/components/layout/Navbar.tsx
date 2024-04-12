@@ -89,7 +89,7 @@ export const Navbar = () => {
             target={link.openInNewTab ? '_blank' : undefined}
             rel={link.openInNewTab ? 'noopener noreferrer' : undefined}
             className='hover:opacity-80 transition-all duration-250'>
-            <p>{link.title}</p>
+            <p className='mt-2'>{link.title}</p>
             <p className='text-[0.75rem] font-thin'>{link.subtitle}</p>
           </a>
         ))}
