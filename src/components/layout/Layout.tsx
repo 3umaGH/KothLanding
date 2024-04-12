@@ -6,7 +6,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className='flex flex-col items-center overflow-x-clip'>
       <div className='text-white font-dm overflow-clip'>
-        <div className='overflow-x-clip flex flex-col justify-between items-center min-h-screen'>
+        <div className='flex flex-col items-center justify-between min-h-screen overflow-x-clip'>
           <Navbar />
           {children}
           <Footer />

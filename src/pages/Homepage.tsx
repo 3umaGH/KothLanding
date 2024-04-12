@@ -5,13 +5,13 @@ import { Layout } from '../components/layout/Layout'
 
 export const Homepage = () => {
   return (
-      <Layout>
-        <Hero />
-        <hr className='w-full my-16 h-[2px] border-t-0 bg-[#1a1c1f]' />
-        <JoinCommunitySection />
+    <Layout>
+      <Hero />
+      <hr className='w-full my-16 h-[2px] border-t-0 bg-[#1a1c1f]' />
+      <JoinCommunitySection />
 
-        <hr className='w-full my-16 h-[2px] border-t-0 bg-[#1a1c1f]' />
-        <GamemodeOverviewSection />
-      </Layout>
+      <hr className='w-full my-16 h-[2px] border-t-0 bg-[#1a1c1f]' />
+      <GamemodeOverviewSection />
+    </Layout>
   )
 }
