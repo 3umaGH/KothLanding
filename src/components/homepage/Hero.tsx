@@ -5,9 +5,9 @@ import { ServerItem } from '../ServerList/ServerItem'
 export const Hero = () => {
   return (
     <div className='flex justify-center items-center select-none'>
-      <div className='min-w-[100vw] max-h-[1200px] md:max-h-[1000px] overflow-clip flex justify-center items-center relative'>
+      <div className='w-screen max-h-[1200px] md:max-h-[1000px] overflow-clip flex justify-center items-center relative'>
         <div
-          className='w-full  min-h-[1200px] md:min-h-[1000px] bg-no-repeat  bg-cover bg-center animate-blur opacity-75'
+          className='w-full min-h-[1200px] md:min-h-[1000px] bg-no-repeat  bg-cover bg-center animate-blur opacity-75'
           style={{ backgroundImage: `url(${HERO_BG})` }}
         />
 
