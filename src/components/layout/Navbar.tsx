@@ -13,7 +13,7 @@ const links = [
     title: 'Donate',
     subtitle: 'Help us to fund the servers',
     URL: 'https://mee6.gg/m/1130814036603326464',
-    openInNewTab: false,
+    openInNewTab: true,
   },
   {
     title: 'Server List',
