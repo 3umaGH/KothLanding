@@ -19,7 +19,7 @@ export const Hero = () => {
               Dominate the hill, rule the battlefield!
             </h1>
 
-            <div className='flex gap-4 xl:gap-32 md:gap-16 justify-around mt-8 flex-wrap'>
+            <div className='flex gap-12 xl:gap-32 md:gap-16 justify-around mt-8 flex-wrap'>
               <ServerItem status='online' name={'EU-1'} map='meaux' maxSlots={85} totalPlayers={76} />
               <ServerItem status='restarting' name={'EU-2'} map='chotain' maxSlots={0} totalPlayers={0} />
               <ServerItem status='offline' name={'EU-3'} map='chotain' maxSlots={0} totalPlayers={0} />
